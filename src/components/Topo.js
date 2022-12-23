@@ -1,0 +1,14 @@
+import React from "react";
+import Logo from './Logo.js'
+import Navegação from "./Navegacao.js";
+
+const Topo = () => {
+    return (
+        <header className="topo">
+            < Logo />
+            < Navegação />
+        </header>
+    );
+};
+
+export default Topo;
