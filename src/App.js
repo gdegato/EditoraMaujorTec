@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Topo from './components/Topo.js';
 import Home from './components/Home.js';
 import Catalogo from './components/Catalogo.js';
@@ -12,7 +12,7 @@ import Livro from './components/Livro.js';
 
 import axios from "axios";
 
-//import "./../src/index.css"; teste
+//import "./../src/index.css"; 
 
 class App extends Component {
   state = {
